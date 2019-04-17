@@ -10,6 +10,6 @@ gemfile:
   - gemfiles/rspec-3
 
 before_install:
-  - gem install bundler -v '~> 2.0'
+  - gem install bundler -v '~> 1.17'
 
 script: bundle exec cucumber
